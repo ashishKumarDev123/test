@@ -1,0 +1,43 @@
+.about-container {
+  padding-top: 130px;
+}
+
+.about-heading {
+  font-size: 43px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  max-width: 735px;
+  margin: 0px auto 80px auto;
+}
+
+.about-count-container {
+  border: 3px solid hsla(0, 0%, 100%, 0.1);
+  padding: 10px;
+  width: 90%;
+  margin-bottom: 60px;
+  padding: 50px 0px;
+}
+
+.abount-count-item-number{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.abount-count-item-heading{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    margin-right: 8px;
+}
+
+.about-mh-ventures{
+    margin-bottom: 97px;
+    font-size: 20px;
+    letter-spacing: 5px ;
+    text-transform: uppercase;
+}
+
+.marqueCustom > .overlay{
+    --gradient-color: rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) !important;
+    --gradient-width: 0px !important;
+}

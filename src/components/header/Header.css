@@ -1,12 +1,17 @@
 .header{
     height: 110px;
     top: 0;
-    background-color: black;
     bottom: auto;
+    background-color: rgba(0, 0, 0, 0);
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
-    color: #f2f2f2;
+    transition: 500ms all ease;
+    
+}
+
+.backgroundBlack{
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .header-logo{
@@ -14,12 +19,13 @@
 }
 
 .nav-items-container{
-    gap: 20px;
+    gap: 30px;
 }
 
 .nav-item{
-    color: #f2f2f2;
+    
     font-size: 13px;
     letter-spacing: 3px;
     color: #f2f2f2;
+    text-transform: uppercase;
 }
