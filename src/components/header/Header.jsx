@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import React, { useEffect, useState } from 'react'
-=======
-import React from 'react'
->>>>>>> 87b2a7ff85de9b38a6d95bffb0d5cab32bb2a533
 import './Header.css'
 import headerLogo from '../../assets/images/headerLogo.png'
 
