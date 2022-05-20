@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import Marquee from "react-fast-marquee";
 
 const About = () => {
   return (
@@ -37,12 +36,7 @@ const About = () => {
       </div>
       
 
-      <Marquee style={{background:"transparent"}} className="text-color-white marqueCustom">
-    <h1>hey</h1>
-    <h1>hey</h1>
-    <h1>hey</h1>
-    <h1>hey</h1>
-  </Marquee>
+    
      
     </div>
   );
