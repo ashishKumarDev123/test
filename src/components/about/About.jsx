@@ -83,6 +83,20 @@ const About = () => {
           <div className="about-detail-item-text">OUR SKILLS</div>
         </div>
       </div>
+
+      <div className="row about-text-details-container text-color-white">
+        <div className="col-4  about-text-details-para">
+          We are veterans of Wall Street, advertising, marketing, creative, and
+          have a portfolio of successful ventures in both traditional business
+          and most importantly, blockchain!
+        </div>
+        <div className="col-4  about-text-details-para">
+        MH Ventures is well placed within the blockchain community to help ensure the success of projects willing to take guidance from a team that has success within its roots! Our contacts and truly beneficial partnerships with top-tier partners allow us to successfully guide and advise our portfolio projects and place them on a path to success.
+        </div>
+        <div className="col-4  about-text-details-para">
+        MH Ventures is committed to the success of all involved and we take a top down approach to ensure that the foundations of success are bred within!
+        </div>
+      </div>
     </div>
   );
 };
