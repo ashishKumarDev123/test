@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import About from "./components/about/About";
 import Banner from "./components/banner/Banner";
+import Footer from "./components/footer/Footer";
+import GetInTouch from "./components/getintouch/GetInTouch";
 import Header from "./components/header/Header";
 import Launch from "./components/launch/Launch";
 import Partners from "./components/partners/Partners";
@@ -18,6 +20,8 @@ const App = () => {
       <Perfomers/>
       <Partners/>
       <Portfolio/>
+      <GetInTouch/>
+      <Footer/>
     </div>
   );
 };

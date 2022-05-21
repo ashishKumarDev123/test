@@ -1,0 +1,23 @@
+.footer-section{
+    width: 100%;
+    background-image: url('../../assets//images/footer.png');
+    padding: 100px 20px ;
+}
+
+.footer-bottom-text-one{
+    margin-top: 45px;
+    font-size: 18px;
+    line-height: 1.4em;
+}
+.footer-bottom-text-two{
+    margin-top: 92px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    line-height: 1.4em;
+}
+.footer-bottom-text-three{
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    line-height: 1.4em;
+}

@@ -1,0 +1,22 @@
+.get-in-touch {
+  padding-bottom: 90px;
+  max-width: 1220px;
+  margin: 0px auto;
+  padding-top: 90px;
+  border-top: 0.5px solid #6b6b6b;
+}
+
+.get-in-touch-heading {
+  font-size: 18px;
+  line-height: 1em;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.form-wrap {
+  width: 100%;
+  max-width: 770px;
+  margin: 50px auto !important;
+}
