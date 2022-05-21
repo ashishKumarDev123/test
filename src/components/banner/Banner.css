@@ -41,3 +41,23 @@
         bottom: 20px;
       }
   }
+
+
+  @media  (max-width: 900px) {
+    .banner-center{
+        width:280px;
+        height: 280px;
+    }
+  }
+  @media  (max-width: 600px) {
+    .banner-center{
+        width:200px;
+        height: 200px;
+    }
+  }
+  @media  (max-width: 428px) {
+    .banner-center{
+        width:150px;
+        height: 150px;
+    }
+  }

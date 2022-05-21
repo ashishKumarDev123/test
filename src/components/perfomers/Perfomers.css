@@ -71,3 +71,18 @@
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+
+@media (max-width: 1300px) {
+  .perfomers-items-container{
+    flex-wrap: wrap;
+    gap: 120px;
+  }
+}
+@media (max-width: 970px) {
+  .perfomers-item-img-container{
+    width: 200px;
+    height: 180px;
+    margin-top: -75px;
+    margin-bottom: 10px;
+  }
+}

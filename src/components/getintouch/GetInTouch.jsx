@@ -16,7 +16,7 @@ const GetInTouch = () => {
             </div>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-lg-6 name-container ">
           <input
             className="w-100 p-2 rounded form-control"
             type="text"
@@ -24,7 +24,7 @@ const GetInTouch = () => {
             placeholder="Enter Name"
           />
         </div>
-        <div className="col-6">
+        <div className="col-lg-6 ">
           <input
             className="w-100 p-2  rounded form-control"
             type="email"
@@ -40,8 +40,8 @@ const GetInTouch = () => {
             placeholder="Enter Message"
           />
         </div>
-        <div className="form-footer mt-3 d-flex justify-content-between align-items-center">
-          <div className="" style={{color:" #6b6b6b"}}>All fields are required</div>
+        <div className="form-footer mt-3 d-flex justify-content-between align-items-center flex-wrap">
+          <div className="flex-grow" style={{color:" #6b6b6b"}}>All fields are required</div>
           <div className="">
             <button className="border-white btn btn-transparent " style={{color:"#f2f2f2"}}>
               Submit message

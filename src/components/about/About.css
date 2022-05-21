@@ -61,7 +61,7 @@
   height: 100%;
 }
 
-.about-text-details-container{
+.about-text-details-container {
   width: 100%;
   max-width: 1220px;
   margin-right: auto;
@@ -71,7 +71,29 @@
   padding-top: 55px;
 }
 
-.about-text-details-para{
+.about-text-details-para {
   font-size: 24px;
   text-align: left;
+}
+
+@media (max-width: 930px) {
+  .about-heading {
+    font-size: 30px;
+    padding: 0px 20px;
+  }
+  .about-text-details-para{
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 750px) {
+  .about-heading {
+    font-size: 18px;
+    padding: 0px 20px;
+  }
+
+  .about-mh-ventures {
+  font-size: 16px;
+  }
+
+ 
 }
