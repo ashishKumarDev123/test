@@ -13,7 +13,7 @@ const Partners = () => {
         {data.map(item=>{
             return (
                 <div key={item} className="marque-item">
-            <img src={Part1} alt="img"></img>
+                <img src={Part1} alt="img"></img>
         </div>
             )
         })}
