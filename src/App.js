@@ -9,6 +9,7 @@ import Launch from "./components/launch/Launch";
 import Partners from "./components/partners/Partners";
 import Perfomers from "./components/perfomers/Perfomers";
 import Portfolio from "./components/portfolio/Portfolio";
+import Team from "./components/team/Team";
 
 const App = () => {
   return (
@@ -16,10 +17,8 @@ const App = () => {
       <Header />
       <Banner />
       <About />
-      <Launch />
       <Perfomers/>
-      <Partners/>
-      <Portfolio/>
+      <Team/>
       <GetInTouch/>
       <Footer/>
     </div>

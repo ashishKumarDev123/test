@@ -1,15 +1,24 @@
+
+.parentGet{
+  background: url('./../../assets//images/launchBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  border-top: 0.5px solid #6b6b6b;
+
+}
 .get-in-touch {
   padding-bottom: 90px;
   max-width: 1220px;
   margin: 0px auto;
   padding-top: 90px;
-  border-top: 0.5px solid #6b6b6b;
 }
 
 .get-in-touch-heading {
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1em;
-  font-weight: 400;
+  font-weight: 900;
   text-align: center;
   letter-spacing: 5px;
   text-transform: uppercase;

@@ -1,10 +1,16 @@
 import React from "react";
 import "./GetInTouch.css";
 import messageIcon from "../../assets/svgs/message.svg";
+import Launch from "../launch/Launch";
 
 const GetInTouch = () => {
   return (
-    <div className="get-in-touch  text-color-white">
+    <div className="row parentGet">
+      <div className="col-6">
+        <Launch/>
+      </div>
+      <div className="col-6">
+      <div className="get-in-touch  text-color-white">
       <div className="get-in-touch-heading ">get in touch</div>
       <div className="row form-wrap">
         <div className="col-12 my-3 d-flex gap-2">
@@ -50,6 +56,9 @@ const GetInTouch = () => {
         </div>
       </div>
     </div>
+      </div>
+    </div>
+    
   );
 };
 

@@ -54,10 +54,10 @@ const About = () => {
           <div className="abount-count-item-heading">PORTFOLIO</div>
         </div>
       </div>
-      <div className="about-mh-ventures text-center text-color-white">
+      {/* <div className="about-mh-ventures text-center text-color-white">
         ABOUT MH VENTURES
-      </div>
-      <div className="row about-details-container text-color-white">
+      </div> */}
+      {/* <div className="row about-details-container text-color-white">
         <div className="col-lg-3 about-detail-item d-flex flex-column justify-content-center align-items-center">
           <div className="about-detail-item-img-container">
             <img src={HorseSvg} alt="horse" />
@@ -82,9 +82,9 @@ const About = () => {
           </div>
           <div className="about-detail-item-text">OUR SKILLS</div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="row about-text-details-container text-color-white">
+      {/* <div className="row about-text-details-container text-color-white">
         <div className="col-lg-4  about-text-details-para">
           We are veterans of Wall Street, advertising, marketing, creative, and
           have a portfolio of successful ventures in both traditional business
@@ -96,7 +96,7 @@ const About = () => {
         <div className="col-lg-4  about-text-details-para">
         MH Ventures is committed to the success of all involved and we take a top down approach to ensure that the foundations of success are bred within!
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
